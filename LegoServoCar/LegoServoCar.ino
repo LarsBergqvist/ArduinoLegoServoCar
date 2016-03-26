@@ -1,6 +1,6 @@
 // ---------------------------------------------------------------------------
 // Sketch for a Lego car with two servos (with continuous rotation) for left 
-// and right wheel and a SR04 ultra sonic sensor for measureing distance to
+// and right wheel and an SR04 ultra sonic sensor for measuring the distance to
 // objects in front of the car
 // ---------------------------------------------------------------------------
 #include <NewPing.h>
