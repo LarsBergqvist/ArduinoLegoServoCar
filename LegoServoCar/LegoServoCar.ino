@@ -60,7 +60,7 @@ void OperateCar()
 {
   if (distance > 0 && distance < 50)
   {
-    Backwards();
+    BackwardsWithLeftTurn();
   }
   else
   {
@@ -101,9 +101,9 @@ void Forward()
   leftWheel.write(LEFT_WHEEL_STOP_POSITION+10);
 }
 
-void Backwards()
+void BackwardsWithLeftTurn()
 {
-  Serial.println("Backwards");
+  Serial.println("Backwards with turn");
   rightWheel.write(RIGHT_WHEEL_STOP_POSITION+10);
   leftWheel.write(LEFT_WHEEL_STOP_POSITION+10);
 }
